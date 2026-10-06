@@ -14,3 +14,8 @@ print(Alex)
 
 print(f"Alice's points: {Alice.point}")
 print(f"Alex's points: {Alex.point}")
+
+TaxCalculator = tlqkf.TaxCalc()
+label = tlqkf.Pricelabel(TaxCalculator)
+
+print(label.text(10000))
